@@ -115,4 +115,6 @@ class Student
     sql = "INSERT INTO registrations (course_id, student_id) VALUES (?,?);"
     DB[:conn].execute(sql, course.id, self.id)
   end
+
+
 end
